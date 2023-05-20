@@ -103,7 +103,7 @@ nav button{
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
-    padding: 50px 0;
+    
 }
 .text-col{
     flex-basis: 50%;
@@ -191,7 +191,7 @@ input[type="radio"]{
 }
 /* <--footer--> */
 .footer{
-    padding: 50px 15% 10px;
+    padding: 50px 4% ;
     border-top: 6px solid #333;
     color: #777;
 }
@@ -211,11 +211,12 @@ input[type="radio"]{
     color: #777;
     font-size: 14px;
     margin-bottom: 10px;
-    /* padding: 0 50px; */
+    
 }
-.footer .row{
-    align-items: flex-start;
-    padding: 10px 0;
+.links{
+    display: flex;
+    gap: 100px;
+    
 }
 .footer .language-btn{
     color: #fff;
@@ -279,5 +280,17 @@ input[type="radio"]{
     label::after{
         font-size: 22px;
     }
-    
+    .faq{
+        padding: 0;
+    }
+    .footer{
+        padding: 0;
+    }
+    .footer h2{
+        margin-top: 44px;
+    }
+    .links{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
